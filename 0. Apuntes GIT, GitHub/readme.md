@@ -19,3 +19,12 @@ Plataforma de desarrollo colaborativo que usa GIT
 * $ ls -la			            //muestra tambien los archivos ocultos
 * $ cd "nombre de carpeta" 	//cd es change directory. Puedo usar tabulador para autocompletar.
 * $ ssh-keygen -t rsa       //Accede al sistema de seguridad ssh y crea una llave (revisar concepto)
+
+## Semántica en el control de versiones (SemVer)
+Cada version de nuestro proyecto tendrá 3 dígitos
+**"Mi_Proyecto"_vA.B.C**
+Donde:
+* A: versión MAYOR. Se realiza un cambio incompatible con versiones anteriores.
+* B: versión MENOR. Se añaden funcionalidades complatibles con versiones anteriores.
+* C: Versión PARCHE. Se reparan errores y es compatible con versiones anteriores.
+Mas información en la pagina web [SemVer.org](https://semver.org/lang/es/)
