@@ -27,4 +27,4 @@ Donde:
 * A: versión MAYOR. Se realiza un cambio incompatible con versiones anteriores.
 * B: versión MENOR. Se añaden funcionalidades complatibles con versiones anteriores.
 * C: Versión PARCHE. Se reparan errores y es compatible con versiones anteriores.
-Mas información en la pagina web [SemVer.org](https://semver.org/lang/es/)
+<br>Mas información en la pagina web [SemVer.org](https://semver.org/lang/es/)
