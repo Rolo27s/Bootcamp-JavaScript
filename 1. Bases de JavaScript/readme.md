@@ -25,10 +25,10 @@ Estos sitios web te van a ser muy útiles para aprender JavaScript:
 * W3Schools
 * JavaScript.info
 
-## Hola mundo
+## ![ICO](icons/keyframes.png) Hola mundo
 Generamos el primer codigo "Hola mundo" en JS
 
-## Variables
+## ![ICO](icons/keyframes.png) Variables
 **Las variables son contenedores que nos permiten almacenar información**
 
 ### Declaracion de variables
@@ -38,22 +38,22 @@ Para declarar una variable en JavaSCript, usamos las palabras reservadas var, le
 > let edad = 32; <br>
 > const altura = 1.75; <br>
 
-## Tipos de datos
+## ![ICO](icons/keyframes.png) Tipos de datos
 
-## Condicionales
+## ![ICO](icons/keyframes.png) Condicionales
 
-## Ejercicios I
+## ![ICO](icons/keyframes.png) Ejercicios I
 
-## Funciones
+## ![ICO](icons/keyframes.png) Funciones
 
-## Funciones flecha
+## ![ICO](icons/keyframes.png) Funciones flecha
 
-## Ejercicios II
+## ![ICO](icons/keyframes.png) Ejercicios II
 
-## Bucles
+## ![ICO](icons/keyframes.png) Bucles
 
-## Métodos de array
+## ![ICO](icons/keyframes.png) Métodos de array
 
-## Ejercicios III
+## ![ICO](icons/keyframes.png) Ejercicios III
 
-## Evaluacion
+## ![ICO](icons/keyframes.png) Evaluacion
