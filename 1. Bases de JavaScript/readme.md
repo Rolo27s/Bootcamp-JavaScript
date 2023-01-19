@@ -1,4 +1,4 @@
-## ![ICO](https://myoctocat.com/assets/images/base-octocat.svg) Intro
+## ![ICO](icons/books.png) Intro
 **Información básica que rodea al lenguaje JS**
 
 ### ¿Qué es JavaScript?
