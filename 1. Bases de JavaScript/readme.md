@@ -54,7 +54,7 @@ Los nombres de las variables deben cumplir las siguientes condiciones:
 Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 
 ### Primitivos
-* String: Tipo texto. Irá declarado entre comillas simples, dobles o backspaces. "", '', ``.
+* String: Tipo texto. Irá declarado entre comillas simples, dobles o backticks. "", '', ``.
 * Number: Valor numérico. Positivo, negativo, decimal...
 * Boolean: Valor lógico. True or False.
 
