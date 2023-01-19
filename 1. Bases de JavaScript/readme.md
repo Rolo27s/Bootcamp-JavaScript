@@ -1,4 +1,4 @@
-## ![ICO](/icons/keyframes.svg) Intro
+## ![ICO](/../icons/keyframes.svg) Intro
 **Información básica que rodea al lenguaje JS**
 
 ### ¿Qué es JavaScript?
