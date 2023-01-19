@@ -38,6 +38,7 @@ Para declarar una variable en JavaSCript, usamos las palabras reservadas var, le
 > let edad = 32; <br>
 > const altura = 1.75;
 <br>
+
 ### var, let y const
 Las variables declaradas con **var** pueden ser reasignadas y redeclaradas. Su alcance es **global** sin importar el ámbito del bloque, pero si se declara dentro de una función, su alcance es local a la función. <br>
 Las variables declaradas con **let** pueden ser reasignadas, pero no redeclaradas. Su alcance es siempre local. <br>
