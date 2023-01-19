@@ -33,10 +33,10 @@ Generamos el primer codigo "Hola mundo" en JS
 
 ### Declaracion de variables
 Para declarar una variable en JavaSCript, usamos las palabras reservadas var, let o const, seguida del nombre de la variable, o constante, y el valor que queremos asignarle, si queremos inicializarla a la hora de la declaración.
-> **Note**
-> var nombre = "Pepe";
-> let edad = 32;
-> const altura = 1.75;
+> **Note** <br>
+> var nombre = "Pepe"; <br>
+> let edad = 32; <br>
+> const altura = 1.75; <br>
 
 ## Tipos de datos
 
