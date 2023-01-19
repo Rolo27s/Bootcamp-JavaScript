@@ -1,4 +1,4 @@
-## @@ Intro @@
+```diff ## @@ Intro @@ ```
 **Información básica que rodea al lenguaje JS**
 
 ### ¿Qué es JavaScript?
