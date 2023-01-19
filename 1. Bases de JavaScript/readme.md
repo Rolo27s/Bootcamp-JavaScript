@@ -26,7 +26,7 @@ Estos sitios web te van a ser muy útiles para aprender JavaScript:
 * JavaScript.info
 
 ## ![ICO](icons/keyframes.png) Hola mundo
-Generamos el primer codigo "Hola mundo" en JS
+Generamos el primer codigo **"Hola mundo"** en JS
 
 ## ![ICO](icons/keyframes.png) Variables
 **Las variables son contenedores que nos permiten almacenar información**
