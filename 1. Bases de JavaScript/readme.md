@@ -37,6 +37,7 @@ Para declarar una variable en JavaSCript, usamos las palabras reservadas var, le
 > var nombre = "Pepe"; <br>
 > let edad = 32; <br>
 > const altura = 1.75; <br>
+<br>
 Las variables declaradas con *var* pueden ser reasignadas y redeclaradas. Su alcance es *global* sin importar el ámbito del bloque, pero si se declara dentro de una función, su alcance es local a la función. <br>
 Las variables declaradas con *let* pueden ser reasignadas, pero no redeclaradas. Su alcance es siempre local. <br>
 La palabra reservada *const* más que una variable es una constante, por tanto, no puede ser reasignada ni redeclarada. <br><br>
@@ -44,7 +45,7 @@ La palabra reservada *const* más que una variable es una constante, por tanto, 
 Los nombres de las variables deben cumplir las siguientes condiciones:
 * No pueden empezar por números
 * Debe contener solo letras, números o los símbolos _ y $
-* No usar ninguna de [estas](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Lexical_grammar#palabras_clave) palabras reservadas
+* No usar ninguna de [estas palabras reservadas](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Lexical_grammar#palabras_clave)
 * Usar la convención camelCase
 
 ## ![ICO](icons/keyframes.png) Tipos de datos
