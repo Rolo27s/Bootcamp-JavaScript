@@ -51,6 +51,21 @@ Los nombres de las variables deben cumplir las siguientes condiciones:
 * Usar la convención camelCase
 
 ## ![ICO](icons/keyframes.png) Tipos de datos
+Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
+
+### Primitivos
+* String: Tipo texto. Irá declarado entre comillas simples, dobles o backspaces. "", '', ``.
+* Number: Valor numérico. Positivo, negativo, decimal...
+* Boolean: Valor lógico. True or False.
+
+### Complejos
+* Object: Colección de propiedades. Usamos notación de punto o corchetes
+* Array: Colección de valores. Notación de corchetes.
+
+### Especiales
+* Null: Valor nulo. No tiene nada dentro.
+* Undefined: No definido. Tampoco tiene nada dentro.
+
 
 ## ![ICO](icons/keyframes.png) Condicionales
 
