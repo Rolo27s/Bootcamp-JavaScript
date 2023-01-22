@@ -71,7 +71,7 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 * if
 * else
 * else if <br>
-*** Para interactuar con los condicionales, necesitaremos usar: ***
+***Para interactuar con los condicionales, necesitaremos usar:***
 * && (and)
 * || (or)
 * ! (negación)
