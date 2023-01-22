@@ -84,6 +84,12 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 <br><br>
 
 ## ![ICO](icons/keyframes.png) Ejercicios I
+* EJ_1_holaMundo
+* EJ_2_variables
+* EJ_3_operacionesBasicas
+* EJ_4_comparacionBasica
+* EJ_5_arrayBasico
+* EJ_6_objetoBasico
 
 ## ![ICO](icons/keyframes.png) Funciones
 
