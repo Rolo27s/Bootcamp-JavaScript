@@ -70,7 +70,8 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 ## ![ICO](icons/keyframes.png) Condicionales y Operadores lógicos
 * if
 * else
-* else if <br>
+* else if 
+<br><br>
 ***Para interactuar con los condicionales, necesitaremos usar:***
 * && (and)
 * || (or)
@@ -79,8 +80,8 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 * === (estrictamente igual)
 * != (diferente)
 * !== (estrictamente diferente)
-* <, <=, >, >= <br>
-
+* <, <=, >, >= 
+<br><br>
 
 ## ![ICO](icons/keyframes.png) Ejercicios I
 
