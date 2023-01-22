@@ -67,7 +67,20 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 * Undefined: No definido. Tampoco tiene nada dentro.
 
 
-## ![ICO](icons/keyframes.png) Condicionales
+## ![ICO](icons/keyframes.png) Condicionales y Operadores lógicos
+* if
+* else
+* else if <br>
+*** Para interactuar con los condicionales, necesitaremos usar: ***
+* && (and)
+* || (or)
+* ! (negación)
+* == (igual)
+* === (estrictamente igual)
+* != (diferente)
+* !== (estrictamente diferente)
+* <, <=, >, >= <br>
+
 
 ## ![ICO](icons/keyframes.png) Ejercicios I
 
