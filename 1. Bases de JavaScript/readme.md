@@ -155,6 +155,13 @@ Las funciones flecha no tiene su propio **.this**
 Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funciones flecha.
 
 ## ![ICO](icons/keyframes.png) Ejercicios II
+* EJ_7_funcionDoble
+* EJ_8_funcionCuadrado
+* EJ_9_funcionArea
+* EJ_10_funcionParImpar
+* EJ_11_funcionArray
+* EJ_12_funcionPokemon
+* EJ_13_funcionesFlecha
 
 ## ![ICO](icons/keyframes.png) Bucles
 
