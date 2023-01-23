@@ -31,6 +31,11 @@ Generamos el primer codigo **"Hola mundo"** en JS
 ## ![ICO](icons/keyframes.png) Variables
 **Las variables son contenedores que nos permiten almacenar información**
 
+### Scope (Alcance)
+* Global
+* Funcion
+* Bloque
+
 ### Declaracion de variables
 Para declarar una variable en JavaSCript, usamos las palabras reservadas var, let o const, seguida del nombre de la variable, o constante, y el valor que queremos asignarle, si queremos inicializarla a la hora de la declaración.
 > **Note** <br>
@@ -96,6 +101,37 @@ Declaracion de función básica:
 > function saludar() { <br>
 > &emsp;console.log('Hola'); <br>
 > } <br>
+Una funcion tiene un scope global si está declarada en el mismo. No si la funcion está dentro de otra función. <br>
+<br>
+Asignación de una función (función anónima):
+> const saludar = function() { <br>
+> &emsp;console.log('Hola'); <br>
+> } <br>
+> <br>
+> saludar(); <br>
+Esto se conoce como función anónima y es útil cuando queremos usar funciones como parámetro de otra(s) funcion(es). <br>
+Al ser una función no declarada estrictamente, solo se la puede llamar después de su declaración (como una variable o constante normal). <br>
+<br>
+Una función tambien puede recibir como parámetro otras funciones:
+> function saludar(fn) { <br>
+> &emsp; fn() <br>
+> } <br>
+> <br>
+> function decirHola() { <br>
+>  &emsp; console.log('Hola') <br>
+> } <br>
+> saludar(decirHola) <br>
+<br>
+
+Un consejo relacionado con ***clean code*** es que como máximo se pasen 3 parámetros a una función. Si es necesario comunicar más información se usarían objetos, estructuras, arrays...
+<br>
+
+##¿Parámetro o argumento?
+* Parámetro: inputs de la función cuando es declarada.
+* Argumento: Al llamar a la función, son los inputs que necesita para trabajar.
+* La función tambien podrá devolver un valor. En caso de no tener un return, por defecto devolverá *undefined*.
+Al ejecutar un return, la función se detiene. Funcionaría similar a un break; dentro de un bucle. <br>
+*las variables declaradas dentro de una función tienen un scope solo dentro de esa función*
 
 ## ![ICO](icons/keyframes.png) Funciones flecha
 
