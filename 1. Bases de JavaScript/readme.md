@@ -136,6 +136,23 @@ Al ejecutar un return, la función se detiene. Funcionaría similar a un break; 
 *Las variables declaradas dentro de una función tienen un scope solo dentro de esa función*
 
 ## ![ICO](icons/keyframes.png) Funciones flecha
+Las funciones flecha no tiene su propio **.this**
+
+### Declaracion de una función flecha
+> const saludar = () => { <br>
+> &emsp; console.log('Hola'); <br>
+> } <br>
+> saludar ();
+<br>
+
+### Caracteristicas:
+* No tienen su propio .this
+* No necesitan la palabra reservada function
+* No necesitan los parentesis si solo tiene un parametro
+* No necesitan las llaves si solo tiene una linea de codigo
+* No necesitan la palabra reservada return si solo tiene una linea de codigo
+
+Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funciones flecha.
 
 ## ![ICO](icons/keyframes.png) Ejercicios II
 
