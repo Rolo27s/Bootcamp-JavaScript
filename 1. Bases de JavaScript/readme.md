@@ -93,9 +93,9 @@ Hay 3 tipos de datos: Primitivos, complejos y especiales. <br>
 
 ## ![ICO](icons/keyframes.png) Funciones
 Declaracion de función básica:
-> function saludar() {
->   console.log('Hola');
-> }
+> function saludar() { <br>
+>   console.log('Hola'); <br>
+> } <br>
 
 ## ![ICO](icons/keyframes.png) Funciones flecha
 
