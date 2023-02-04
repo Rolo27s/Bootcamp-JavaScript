@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios II</title>
+</head>
+<body>
+    <!-- Funcion 1. función que reciba un número y devuelva el doble de ese número. -->
+    <div>
+        <label class="question">1) Hago N*2. Dame el valor de N</label>
+        <input id="n1" type="number">
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="nPor2('funcion1'); nPor2f('funcionFlecha1')">
+
+        <p id="funcion1"></p>
+        <p id="funcionFlecha1"></p>
+    </div>
+
+    <!-- Funcion 2 -->
+    <div>
+        <label class="question">2) Hago N*N. Dame el valor de N</label>
+        <input id="n2" type="number">
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="nPorN('funcion2'); nPorNf('funcionFlecha2')">
+        
+        <p id="funcion2"></p>
+        <p id="funcionFlecha2"></p>
+    </div>
+
+    <!-- Funcion 3 -->
+    <div>
+        <p>3) Area de rectangulo. Hago B*H.</p>
+        <label class="question"> Dame el valor de B</label>
+        <input id="base" type="number">
+        <br>
+        <label class="question"> Dame el valor de H</label>
+        <input id="altura" type="number">
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="bPorH('funcion3'); bPorHf('funcionFlecha3')">
+
+        <p id="funcion3"></p>
+        <p id="funcionFlecha3"></p>
+    </div>
+
+    <!-- Funcion 4 -->
+    <div>
+        <label class="question">4) N es par o inpar? Dame el valor de N</label>
+        <input id="n4" type="number">
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="parImpar('funcion4'); parImparf('funcionFlecha4')">
+
+        <p id="funcion4"></p>
+        <p id="funcionFlecha4"></p>
+    </div>
+
+    <!-- Funcion 5 -->
+    <div>
+        <p>5) Contengo un array de personas</p>
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="arrayPersonas()">
+        
+    </div>
+
+    <!-- Funcion 6 -->
+    <div>
+        <p>6) Contengo un array de pokemons</p>
+        <br>
+        <img src="flecha.png" alt="flecha" height="20" onclick="arrayPokemons(misPokemons)">
+    </div>
+<script src="Ejercicio.js"></script>
+</body>
+</html>
