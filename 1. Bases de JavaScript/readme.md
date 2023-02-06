@@ -190,7 +190,71 @@ Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funcione
 <br>
 
 ## ![ICO](icons/keyframes.png) Métodos de array
+forEach, filter, find, map, reduce
+<br>
+* forEach
+  Nos permite recorrer el array y ejecutar una funcion por cada elemento del array.
+  <br>
+  Recibe como parametro una funcion que se ejecutará por cada elemento del array
+  <br>
+> const array = [1, 2, 3, 4, 5]; <br>
+> <br>
+> array.forEach((element) => { <br>
+>  console.log(element); // 1, 2, 3, 4, 5 <br>
+> }); <br>
+<br>
+
+* filter
+Todo elemento que cumpla la condicion se añadira a un nuevo array
+<br>
+> const array = [1, 2, 3, 4, 5]; <br>
+> <br>
+> const filteredArray = array.filter((element) => { <br>
+>  return element > 3; <br>
+> }); <br>
+> <br>
+> console.log(filteredArray); // [4, 5] <br>
+<br>
+
+* find
+Devuelve el primer elemento que cumpla la condicion que pasaremos en la forma de funcion
+<br>
+> const array = [1, 2, 3, 4, 5]; <br>
+> <br>
+> const foundElement = array.find((element) => { <br>
+>  return element > 3; <br>
+> }); <br>
+> <br>
+> console.log(foundElement); // 4 <br>
+<br>
+Si no encuentra ningun elemento que cumpla la condición devolvera *undefined*
+<br>
+
+* map
+Nos permite transformar los elementos de un array
+<br>
+> const array = [1, 2, 3, 4, 5]; <br>
+> <br>
+> const arrayConNumerosDobles = array.map((element) => { <br>
+>  return element * 2; <br>
+> }); <br>
+> <br>
+> console.log(arrayConNumerosDobles); // [2, 4, 6, 8, 10] <br>
+
+* reduce
+Nos permite reducir un array a un unico valor
+> <br>
+> const array = [1, 2, 3, 4, 5]; <br>
+> <br>
+> const sumaDeTodosLosNumeros = array.reduce((acumulador, elemento) => { <br>
+>  return acumulador + elemento; <br>
+> }); <br>
+> <br>
+> console.log(sumaDeTodosLosNumeros); // 15 <br>
+<br>
 
 ## ![ICO](icons/keyframes.png) Ejercicios III
+*6 Ejericicios sobre funciones, arrays y bucles*
+<br>
 
 ## ![ICO](icons/keyframes.png) Evaluacion
