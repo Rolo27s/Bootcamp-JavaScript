@@ -236,8 +236,8 @@ Si no encuentra ningun elemento que cumpla la condición devolvera *undefined*
 
 * map <br>
 Nos permite transformar los elementos de un array
-
 <br>
+
 > const array = [1, 2, 3, 4, 5]; <br>
 > <br>
 > const arrayConNumerosDobles = array.map((element) => { <br>
@@ -245,13 +245,13 @@ Nos permite transformar los elementos de un array
 > }); <br>
 > <br>
 > console.log(arrayConNumerosDobles); // [2, 4, 6, 8, 10] <br>
+
 <br>
 
 * reduce <br>
 Nos permite reducir un array a un unico valor
-
 <br>
-> <br>
+
 > const array = [1, 2, 3, 4, 5]; <br>
 > <br>
 > const sumaDeTodosLosNumeros = array.reduce((acumulador, elemento) => { <br>
@@ -259,6 +259,7 @@ Nos permite reducir un array a un unico valor
 > }); <br>
 > <br>
 > console.log(sumaDeTodosLosNumeros); // 15 <br>
+
 <br>
 
 ## ![ICO](icons/keyframes.png) Ejercicios III
