@@ -168,17 +168,19 @@ Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funcione
   <br>
   **for in:** Se utiliza para recorrer las propiedades de un objeto
   <br>
-  > const persona = {
-  > nombre: 'Pepe',
-  > edad: 23,
-  > ciudad: 'Madrid'
-> }
+  > const persona = { <br>
+  > nombre: 'Pepe', <br>
+  > edad: 23, <br>
+  > ciudad: 'Madrid' <br>
+> } <br>
+> <br>
+> for (const propiedad in persona) { <br>
+ > console.log(propiedad) // nombre, edad, ciudad <br>
+ > console.log(persona[propiedad]) // Pepe, 23, Madrid <br>
+> } <br>
 > 
-> for (const propiedad in persona) {
- > console.log(propiedad) // nombre, edad, ciudad
- > console.log(persona[propiedad]) // Pepe, 23, Madrid
-> }
 <br>
+
 ## ![ICO](icons/keyframes.png) Métodos de array
 
 ## ![ICO](icons/keyframes.png) Ejercicios III
