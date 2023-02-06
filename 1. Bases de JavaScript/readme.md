@@ -179,7 +179,15 @@ Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funcione
  > console.log(persona[propiedad]) // Pepe, 23, Madrid <br>
 > } <br>
 > 
+<br> <br>
+**for of:** Se utiliza para recorrer los elementos de un array
 <br>
+> const frutas = ['manzana', 'pera', 'naranja'] <br>
+>  <br>
+> for (const fruta of frutas) { <br>
+ > console.log(fruta) // manzana, pera, naranja <br>
+> } <br>
+<br><br>
 
 ## ![ICO](icons/keyframes.png) Métodos de array
 
