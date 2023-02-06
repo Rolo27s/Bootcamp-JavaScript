@@ -164,7 +164,21 @@ Al desarrollar proyectos usando react nos apoyaremos mucho en el uso de funcione
 * EJ_13_funcionesFlecha
 
 ## ![ICO](icons/keyframes.png) Bucles
-
+  while, do while, for, for in, for of 
+  <br>
+  **for in:** Se utiliza para recorrer las propiedades de un objeto
+  <br>
+  > const persona = {
+  > nombre: 'Pepe',
+  > edad: 23,
+  > ciudad: 'Madrid'
+> }
+> 
+> for (const propiedad in persona) {
+ > console.log(propiedad) // nombre, edad, ciudad
+ > console.log(persona[propiedad]) // Pepe, 23, Madrid
+> }
+<br>
 ## ![ICO](icons/keyframes.png) Métodos de array
 
 ## ![ICO](icons/keyframes.png) Ejercicios III
