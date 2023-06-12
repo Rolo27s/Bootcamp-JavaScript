@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Problema Events</title>
+</head>
+
+<body>
+    <h1>Problema formulario</h1>
+    <div class="contP">
+        <p>Formulario para inscripcion de recuperacion
+            <br>
+            <span class="info">* Todos los campos son obligatorios</span>
+        </p>
+        <form action="formulario" class="grid-container" id="formulario">
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" id="nombre" required>
+
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" id="apellidos" required>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="asignatura">Asignatura: </label>
+            <select name="asignatura" id="asignatura">
+                <option value="0">selecciona asignatura...</option>
+                <option value="matematicas">matematicas</option>
+                <option value="fisica">fisica</option>
+                <option value="logica">logica</option>
+                <option value="programacion">programacion</option>
+                <option value="base de datos">base de datos</option>
+                <option value="arquitectura">arquitectura</option>
+            </select>
+            <label for="send">Enviar info: </label>
+            <input type="submit" value="ENVIAR" id="boton1">
+        </form>
+        <script src="code.js"></script>
+    </div>
+</body>
+
+</html>
